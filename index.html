@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="input-container">
+        <h1>Calculator App</h1>
+
+        <label for="rounds">Maximum Rounds:</label>
+        <select id="rounds">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+
+        <br>
+
+        <label for="gold">Total Gold:</label>
+        <input type="number" id="gold">
+
+        <br>
+
+        <label for="siege">Max Siege:</label>
+        <input type="number" id="siege">
+
+        <br>
+        <button id="calculateBtn">Calculate</button>
+    </div>
+
+    <div class="output-container">
+        <h1>Distribution</h1>
+        <div id="outputs"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
