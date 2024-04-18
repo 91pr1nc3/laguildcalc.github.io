@@ -1,2 +1,2 @@
 # laguildcalc.github.io
-Guild calculator for lost ark
+Lost ark calculator for guild
