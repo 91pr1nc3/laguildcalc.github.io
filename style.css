@@ -43,7 +43,7 @@ select {
 
 #calculateBtn {
     display: block;
-    width: 100%;
+    width: calc(100% - 20px);
     padding: 10px;
     margin-top: 20px;
     background-color: #4CAF50;
@@ -58,26 +58,15 @@ select {
     background-color: #45a049;
 }
 
-#outputs {
-    margin-top: 20px;
+.output-container ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 0;
+    text-align: center;
 }
 
-.output {
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.output-container ul li {
+    display: block;
+    padding: 5px 0;
 }
 
-.output p {
-    margin: 0;
-}
-
-#outputs {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}

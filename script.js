@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
         outputsDiv.innerHTML = '';
 
         for (let i = 1; i <= maxRounds; i++) {
-            const output = document.createElement('p');
+            const output = document.createElement('li');
             output.textContent = `Distribution for ${i} runs: ${Math.round(totalGold / maxSiege * i)}`;
             outputsDiv.appendChild(output);
         }
